@@ -1,11 +1,11 @@
 body {
-  min-height: 20vh;
-  margin: 0;
+  min-height: 100vh;
+  margin: 4;
   display: grid;
-  place-items: center;
+  place-items: left;
   font-family: system-ui, sans-serif;
   color: #1b150e;
-  background: #e2e9df;
+  background: #f0e3e8;
 }
 
 .card {
@@ -17,7 +17,7 @@ body {
 }
 
 .eyebrow {
-  color: #ffffff;
+  color: #8a3333;
   font-weight: 700;
 }
 
@@ -26,5 +26,5 @@ button {
   border: 0;
   border-radius: 0.5rem;
   color: white;
-  background: #27282c;
+  background: #272c29;
 }
