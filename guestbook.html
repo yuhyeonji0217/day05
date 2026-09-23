@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>my-web · 방명록</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header>
@@ -23,18 +24,18 @@
         <li>남기기 버튼을 누른다.</li>
       </ol>
       <form>
-        <p>
-          <label for="name">이름</label>
-          <input id="name" type="text">
-        </p>
-        <p>
+        <div>
+            <label for="name">이름</label>
+            <input id="name" type="text">
+        </div>
+        <div>
           <label for="email">이메일</label>
           <input id="email" type="email">
-        </p>
-        <p>
+        </div>
+        <div>
           <label for="message">메시지</label>
           <textarea id="message" rows="4"></textarea>
-        </p>
+        </div>
         <button type="submit">남기기</button>
       </form>
       <p>지금은 눌러도 주소창만 바뀐다. 화면에 띄우는 일은 7주에 한다.</p>
