@@ -22,9 +22,9 @@ body {
 }
 
 button {
-  padding: 0.7rem 1rem;
+  padding: 0.5rem 1rem;
   border: 0;
   border-radius: 0.5rem;
   color: white;
-  background: #272c29;
+  background: #2e2926;
 }
